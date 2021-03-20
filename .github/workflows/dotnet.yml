@@ -15,7 +15,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest #self-hosted
+    runs-on: self-hosted #self-hosted or ubuntu-latest
    # runs-on: ${{ matrix.os }}
    # strategy:
    #   matrix:
