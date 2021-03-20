@@ -42,7 +42,7 @@ jobs:
       run: dotnet publsh --configuration Release -o ${{ github.workspace }}/package
       
     - name: Upload
-      uses: actions/upload-artefacts@v1
+      uses: actions/upload-artifacts@v1
       with: 
         name: app
         path: ${{ github.workspace }}/package
